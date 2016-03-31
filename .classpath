@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle"/>
+	<classpathentry kind="lib" path="jars/netty-all-4.0.33.Final.jar"/>
+	<classpathentry kind="lib" path="jars/protobuf-java-2.6.1.jar"/>
+	<classpathentry kind="lib" path="jars/mysql-connector-java-5.1.6.jar"/>
+	<classpathentry kind="lib" path="jars/cglib-3.2.0.jar"/>
+	<classpathentry kind="lib" path="jars/hibernate-core-4.3.11.Final.jar"/>
+	<classpathentry kind="lib" path="jars/javassist-3.12.1.GA.jar"/>
+	<classpathentry kind="lib" path="jars/javax.persistence-2.1.0.jar"/>
+	<classpathentry kind="lib" path="jars/hibernate-entitymanager-4.3.2.Final.jar"/>
+	<classpathentry kind="lib" path="jars/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="jars/hibernate-commons-annotations-5.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="jars/jboss-logging-3.3.0.Final.jar"/>
+	<classpathentry kind="lib" path="jars/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="jars/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="jars/jandex-2.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="jars/javassist-3.18.1-GA.jar"/>
+	<classpathentry kind="lib" path="jars/jta-1.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

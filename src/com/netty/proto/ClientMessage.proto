@@ -1,0 +1,55 @@
+message ClientMessage {
+	optional string msgId = 1;
+	optional int32 senderId = 2;
+	optional int32 clientId = 10;
+	optional int32 receiverId = 3;
+	optional Details details = 4;
+	optional Functionalities functionalities = 5;
+	optional MessageType messageType = 6;
+	optional RequestType requestType = 7;
+	optional Requester cameFrom = 9;
+	optional bool broadcastInternal = 8;
+
+	enum MessageType{
+		REQUEST = 1;
+		SUCCESS = 2;
+		REPLICATION = 3;
+		OTHERCLUSTER = 4;
+	}
+
+	enum RequestType {
+		GET = 0;
+		POST = 1;
+	}
+
+	enum Requester {
+		LEADER = 1;
+		CLIENT = 2;
+		FOLLOWER = 3;
+		REGISTER = 4;
+	}
+
+	enum Functionalities {
+		GETUSER = 1;
+		GETCOURSEDESCRIPTION = 2;
+		ADDUSER = 3;
+		ADDCOURSE = 4;
+		ADDCOURSETOUSER = 5;
+	}
+}
+
+message Details {
+	optional int32 user_id = 1;
+	optional string username = 2;
+	optional string course_id = 3;
+	optional string course_name = 4;
+	optional string course_description = 5;
+}
+
+message JoinMessage {
+
+}
+
+message Request {
+
+}
